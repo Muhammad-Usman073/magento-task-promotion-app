@@ -1,0 +1,19 @@
+<?php
+/**
+ * @var Magento\Framework\View\Element\Template $block
+ * @var Mgn\Notification\ViewModel\Post $notificationModel
+ *
+ */
+$notificationModel = $block->getData('notification_post');
+$moduleData = $notificationModel->getDetail();
+?>
+
+
+<div class="blog-post-list" >
+    <h1>welcome to the Promotion Notification</h1>
+    <p><?= $moduleData->getId()?></p>
+    <p><?= $moduleData->getDescription() ?></p>
+    <p><?= $moduleData->getPromotionName() ?></p>
+    <p><?= $moduleData->getStartDate()?></p>
+    <p><?= $moduleData->getEndDate() ?></p>
+</div>

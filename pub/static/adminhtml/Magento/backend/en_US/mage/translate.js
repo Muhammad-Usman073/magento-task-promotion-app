@@ -1,1 +1,0 @@
-/Users/pro/Documents/Sites/promotions/lib/web/mage/translate.js
