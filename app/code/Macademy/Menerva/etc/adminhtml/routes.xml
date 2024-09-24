@@ -2,7 +2,7 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
     <router id="admin" >
-        <route id="menerva" frontname="minerva" >
+        <route id="menerva" frontName="minerva" >
 <module name="Macademy_Menerva" after="Magento_Backend"  />
         </route>
     </router>

@@ -2,7 +2,7 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
-        <add id="Mgn_Notification::manage_label" title="Notification" module="Mgn_Notification" sortOrder="10"
+        <add id="Mgn_Notification::manage_label" title="Notification" module="Mgn_Notification" sortOrder="900"
              resource="Mgn_Notification::manage_label" action="notification/table/index"/>
     </menu>
 </config>
