@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
-    <menu>
-        <add id="Macademy_Menerva::menerva" parent="Magento_Backend::content" title="Menerva" module="Macademy_Menerva" resource="Macademy_Menerva::menerva" sortOrder="900" />
-        <add id="Macademy_Menerva::faq" parent="Macademy_Menerva::menerva" title="FAQs" module="Macademy_Menerva" resource="Macademy_Menerva::faq" action="menerva/faq/index"/>
-    </menu>
-</config>
-
