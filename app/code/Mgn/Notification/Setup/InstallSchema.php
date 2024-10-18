@@ -57,6 +57,12 @@ class InstallSchema implements InstallSchemaInterface
                 null, [],
                 'end date of promotion'
             )
+            ->addColumn(
+                'is_published',
+                Table::TYPE_BOOLEAN,
+                null, [],
+                'is data should shown or not to the front end'
+            )
             ->setComment('this is the table that contains promotions');
         $installer->getConnection()->createTable($table);
 

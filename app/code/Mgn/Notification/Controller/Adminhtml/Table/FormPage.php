@@ -9,7 +9,7 @@ use Magento\Backend\Model\View\Result\Page;
 use Magento\Framework\App\Action\HttpGetActionInterface;
 use Magento\Framework\View\Result\PageFactory;
 
-class Index extends Action implements HttpGetActionInterface
+class FormPage extends Action implements HttpGetActionInterface
 {
     public function __construct(
         private PageFactory $pageFactory,
@@ -20,7 +20,7 @@ class Index extends Action implements HttpGetActionInterface
     public function execute() : Page
     {
         $page = $this->pageFactory->create();
-        $page->getConfig()->getTitle()->prepend(__('Notifications'));
+        $page->getConfig()->getTitle()->prepend(__('Create a New Promotion'));
         return $page;
     }
 }

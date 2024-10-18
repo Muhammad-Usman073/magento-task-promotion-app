@@ -19,6 +19,11 @@ interface NotificationRepositoryInterface
      * @throws LocalizedException
      */
     public function getById(int $id): NotificationInterface;
+/**
+     * @return array
+     * @throws LocalizedException
+     */
+    public function getAllData(): array;
 
     /**
      * @param NotificationInterface $post
